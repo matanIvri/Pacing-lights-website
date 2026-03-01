@@ -229,6 +229,8 @@ a:hover { text-decoration: underline; }
        - Use flexbox
        - Add a gap (e.g., 26px)
   */
+  display: flex;
+  gap: 26px;
 }
 
 .card {
@@ -238,6 +240,8 @@ a:hover { text-decoration: underline; }
   */
   display: grid;
   grid-template-columns: 1fr 1fr;
+  border: 1px solid #eee;
+  flex: 1;
 }
 
 .card-text {
@@ -264,6 +268,8 @@ a:hover { text-decoration: underline; }
        - cover
        - centered
   */
+  background-size: cover;
+  background-position: center;
 }
 
 /* Optional images (already provided) */
@@ -284,6 +290,7 @@ a:hover { text-decoration: underline; }
   /* TODO N (Center CTA):
      Center the CTA text and button.
   */
+  text-align: center;
 }
 
 
@@ -305,6 +312,10 @@ a:hover { text-decoration: underline; }
        - Add a gap (e.g., 24px)
        - Space items out (left/right)
   */
+  display: flex;
+  gap: 24px;
+  justify-content: space-between;
+  align-items: flex-start;
 }
 
 .footer-left {
