@@ -208,8 +208,8 @@ a:hover { text-decoration: underline; }
   background: #eaeaea;
   border: 1px solid #ddd;
   height: 260px;
-  display: grid;
-  place-items: center;
+  width: 100%;
+  display: block;
 }
 
 
